@@ -1,5 +1,18 @@
 # Week 0 — Billing and Architecture
 
+## Required Tasks
+
+### Install AWS CLI
+
+I was not able to use Github to install AWS CLI 
+I started with it but along the line, I got stuck and couldn't figure out where the mistake was coming from.
+So I decided to use a local environment to install AWS CLI.
+
+I used this step to install the AWS CLI.
+```
+msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
+
+```
 
 ### Created an Admin User
 
