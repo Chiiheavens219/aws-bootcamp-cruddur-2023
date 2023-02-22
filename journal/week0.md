@@ -8,10 +8,14 @@ I was not able to use Github to install AWS CLI
 I started with it but along the line, I got stuck and couldn't figure out where the mistake was coming from.
 So I decided to use a local environment to install AWS CLI.
 
-I used this step to install the AWS CLI.
+I installed the AWS CLI through the **Command prompt**
 ```
 msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
 
+```
+I confirmed the installation using the command prompt by typing cmd in the Start menu and typed 
+```
+aws --version
 ```
 
 ### Created an Admin User
