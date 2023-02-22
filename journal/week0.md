@@ -9,6 +9,8 @@ I started with it but along the line, I got stuck and couldn't figure out where 
 So I decided to use a local environment to install AWS CLI.
 
 I installed the AWS CLI through the **Command prompt**
+
+![Installed AWS CLI](assets/AWS%20CLI.PNG)
 ```
 msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
 
@@ -17,6 +19,7 @@ I confirmed the installation using the command prompt by typing cmd in the Start
 ```
 aws --version
 ```
+I wasn't able to configure the AWS CLI, it kept bringing up the security credentials for the root user account and not for the bootcamp account.
 
 ### Created an Admin User
 
